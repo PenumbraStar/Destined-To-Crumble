@@ -1,12 +1,13 @@
 Destined To Crumble
-To download and install
+-
+How to download and install
 
-Go to releases
+1.Go to releases
 
-Select the latest release
+2.Select the latest release
 
-Download the Source Code(Zip)
+3.Download the Source Code(Zip)
 
-Install through MultiMc
+4.Install through MultiMc
 
 Note: If you can not use MultiMc, contact me and I can help you install.
