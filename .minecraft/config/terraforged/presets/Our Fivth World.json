@@ -1,0 +1,195 @@
+{
+  "miscellaneous": {
+    "smoothLayerDecorator": true,
+    "strataRegionSize": 684,
+    "strataDecorator": true,
+    "oreCompatibleStoneOnly": true,
+    "erosionDecorator": true,
+    "plainStoneErosion": false,
+    "naturalSnowDecorator": true,
+    "customBiomeFeatures": true,
+    "vanillaLakes": false,
+    "vanillaSprings": true,
+    "vanillaLavaLakes": true,
+    "vanillaLavaSprings": false,
+    "mountainBiomeUsage": 0.851,
+    "volcanoBiomeUsage": 0.855
+  },
+  "dimensions": {
+    "bedrockLayer": {
+      "material": "minecraft:bedrock",
+      "minDepth": 1,
+      "variance": 1
+    },
+    "dimensions": {
+      "nether": "minecraft:biomesoplenty",
+      "end": "minecraft:biomesoplenty",
+      "includeExtraDimensions": true
+    }
+  },
+  "world": {
+    "continent": {
+      "continentType": "MULTI",
+      "continentShape": "EUCLIDEAN",
+      "continentScale": 3060,
+      "continentJitter": 0.8
+    },
+    "controlPoints": {
+      "deepOcean": 0.008,
+      "shallowOcean": 0.1,
+      "beach": 0.18,
+      "coast": 0.206,
+      "inland": 0.25
+    },
+    "properties": {
+      "spawnType": "CONTINENT_CENTER",
+      "worldHeight": 256,
+      "seaLevel": 63
+    }
+  },
+  "climate": {
+    "temperature": {
+      "seedOffset": 371916078,
+      "scale": 7,
+      "falloff": 2,
+      "min": 0.0,
+      "max": 1.0,
+      "bias": 0.154
+    },
+    "moisture": {
+      "seedOffset": -655391890,
+      "scale": 7,
+      "falloff": 1,
+      "min": 0.0,
+      "max": 1.0,
+      "bias": -0.025
+    },
+    "biomeShape": {
+      "biomeSize": 185,
+      "macroNoiseSize": 8,
+      "biomeWarpScale": 150,
+      "biomeWarpStrength": 80
+    },
+    "biomeEdgeShape": {
+      "type": "SIMPLEX",
+      "scale": 16,
+      "octaves": 5,
+      "gain": 0.196,
+      "lacunarity": 5.519,
+      "strength": 32
+    }
+  },
+  "terrain": {
+    "general": {
+      "terrainSeedOffset": -560499973,
+      "terrainRegionSize": 1356,
+      "globalVerticalScale": 1.0,
+      "globalHorizontalScale": 0.605,
+      "fancyMountains": true
+    },
+    "steppe": {
+      "weight": 1.519,
+      "baseScale": 1.0,
+      "verticalScale": 1.0,
+      "horizontalScale": 1.0
+    },
+    "plains": {
+      "weight": 2.164,
+      "baseScale": 1.0,
+      "verticalScale": 1.0,
+      "horizontalScale": 1.0
+    },
+    "hills": {
+      "weight": 2.009,
+      "baseScale": 1.0,
+      "verticalScale": 1.0,
+      "horizontalScale": 1.0
+    },
+    "dales": {
+      "weight": 1.261,
+      "baseScale": 1.0,
+      "verticalScale": 1.0,
+      "horizontalScale": 1.0
+    },
+    "plateau": {
+      "weight": 1.983,
+      "baseScale": 1.0,
+      "verticalScale": 1.0,
+      "horizontalScale": 1.0
+    },
+    "badlands": {
+      "weight": 1.391,
+      "baseScale": 1.0,
+      "verticalScale": 1.0,
+      "horizontalScale": 1.0
+    },
+    "torridonian": {
+      "weight": 2.68,
+      "baseScale": 1.0,
+      "verticalScale": 1.0,
+      "horizontalScale": 1.0
+    },
+    "mountains": {
+      "weight": 2.911,
+      "baseScale": 1.0,
+      "verticalScale": 1.0,
+      "horizontalScale": 1.0
+    },
+    "volcano": {
+      "weight": 7.5,
+      "baseScale": 1.0,
+      "verticalScale": 1.0,
+      "horizontalScale": 1.0
+    }
+  },
+  "rivers": {
+    "seedOffset": -132254732,
+    "riverCount": 10,
+    "mainRivers": {
+      "bedDepth": 7,
+      "minBankHeight": 1,
+      "maxBankHeight": 4,
+      "bedWidth": 9,
+      "bankWidth": 32,
+      "fade": 0.0
+    },
+    "branchRivers": {
+      "bedDepth": 3,
+      "minBankHeight": 1,
+      "maxBankHeight": 3,
+      "bedWidth": 8,
+      "bankWidth": 20,
+      "fade": 0.25
+    },
+    "lakes": {
+      "chance": 0.648,
+      "minStartDistance": 0.0,
+      "maxStartDistance": 0.028,
+      "depth": 12,
+      "sizeMin": 80,
+      "sizeMax": 175,
+      "minBankHeight": 2,
+      "maxBankHeight": 7
+    },
+    "wetlands": {
+      "chance": 0.5,
+      "sizeMin": 130,
+      "sizeMax": 200
+    }
+  },
+  "filters": {
+    "erosion": {
+      "dropletsPerChunk": 165,
+      "dropletLifetime": 12,
+      "dropletVolume": 0.648,
+      "dropletVelocity": 0.657,
+      "erosionRate": 0.5,
+      "depositeRate": 0.5
+    },
+    "smoothing": {
+      "iterations": 1,
+      "smoothingRadius": 1.506,
+      "smoothingRate": 1.0
+    }
+  }
+}
