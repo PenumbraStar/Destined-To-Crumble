@@ -2,7 +2,7 @@ ofFogType:3
 ofFogStart:0.8
 ofMipmapType:0
 ofOcclusionFancy:false
-ofSmoothFps:false
+ofSmoothFps:true
 ofSmoothWorld:true
 ofAoLevel:1.0
 ofClouds:3
@@ -55,14 +55,14 @@ ofNaturalTextures:true
 ofEmissiveTextures:true
 ofLazyChunkLoading:true
 ofRenderRegions:false
-ofSmartAnimations:true
+ofSmartAnimations:false
 ofDynamicFov:true
 ofAlternateBlocks:true
 ofDynamicLights:2
 ofScreenshotSize:1
 ofCustomEntityModels:true
 ofCustomGuis:true
-ofShowGlErrors:true
+ofShowGlErrors:false
 ofFastMath:true
 ofFastRender:false
 ofTranslucentBlocks:2
